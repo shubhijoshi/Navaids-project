@@ -23,7 +23,6 @@ Predict Navaid power levels (**LOW, MEDIUM, HIGH**) using features like frequenc
 | **slaved_variation_deg** | Additional magnetic variation |
 | **elevation_ft**        | Elevation above sea level |
 | **usageType**           | Classification of Navaid usage |
-| **associated_airport**  | Related airport |
 | **power (Target)**      | Categorized as "LOW", "MEDIUM", or "HIGH" |
 
 ##  Feature Relationships
@@ -54,8 +53,7 @@ Predict Navaid power levels (**LOW, MEDIUM, HIGH**) using features like frequenc
      - `StandardScaler` – Feature scaling.
      - `GridSearchCV` – Hyperparameter tuning.
      - `accuracy_score` – Model evaluation.
-   - `imbalanced-learn`
-     - `SMOTE` – Handle class imbalance.
+
 
 ## Machine Learning Model
 - **Random Forest with Hyperparameter Tuning**  
